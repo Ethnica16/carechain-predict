@@ -3,6 +3,8 @@ import { MetricCard } from "@/components/MetricCard";
 import { AlertCard } from "@/components/AlertCard";
 import { DemandChart } from "@/components/DemandChart";
 import { InventoryGrid } from "@/components/InventoryGrid";
+import { TableauDashboard } from "@/components/TableauDashboard";
+import { DataProcessingPanel } from "@/components/DataProcessingPanel";
 import { 
   DollarSign, 
   Package, 
@@ -112,14 +114,20 @@ const Index = () => {
           <div className="lg:col-span-2">
             <DemandChart />
           </div>
-          <div>
+          <div className="space-y-6">
             <AlertCard alerts={alertData} />
+            <DataProcessingPanel />
           </div>
         </section>
 
         {/* Inventory Grid */}
         <section>
           <InventoryGrid />
+        </section>
+
+        {/* Advanced Analytics Section */}
+        <section>
+          <TableauDashboard />
         </section>
 
         {/* Impact Summary */}
