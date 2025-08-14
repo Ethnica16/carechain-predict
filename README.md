@@ -1,73 +1,76 @@
-# Welcome to your Lovable project
+# MedSupplyAI – Predictive Hospital Supply Chain Analytics
 
 ## Project info
 
 **URL**: https://lovable.dev/projects/1d2c2bdc-f3d5-4850-838c-3d82719d713e
 
-## How can I edit this code?
+Overview
+MedSupplyAI is a predictive analytics solution designed to optimize hospital supply chains. The project forecasts demand for critical medical supplies, reduces stockouts and overstocking, and minimizes expired inventory. By integrating historical supply, usage, and patient data, the platform enables hospital management to make proactive, data-driven decisions that improve operational efficiency and patient care outcomes.
 
-There are several ways of editing your application.
+Key Features
+Predicts hospital supply demand using machine learning models (Random Forest, XGBoost).
 
-**Use Lovable**
+Provides interactive dashboards for inventory trends, forecasted demand, and risk alerts.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/1d2c2bdc-f3d5-4850-838c-3d82719d713e) and start prompting.
+Supports data-driven decision-making for hospital administrators and supply chain managers.
 
-Changes made via Lovable will be committed automatically to this repo.
+Automates monitoring of stock levels to reduce costs and prevent shortages.
 
-**Use your preferred IDE**
+Technologies Used
+Frontend: React, TypeScript, Tailwind CSS, shadcn-ui
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Backend & Analytics: Node.js, Python (for ML & data processing)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Data Handling: SQL, pandas, NumPy
 
-Follow these steps:
+Visualization: Tableau, matplotlib
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+Tooling: Vite, npm
+
+Installation & Development
+You can edit and run the project locally using the following steps:
+
+Clone the repository:
+
+bash
+Copy
+Edit
 git clone <YOUR_GIT_URL>
+Navigate to the project directory:
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+bash
+Copy
+Edit
+cd MedSupplyAI-Predictive-Hospital-Supply-Chain
+Install dependencies:
 
-# Step 3: Install the necessary dependencies.
-npm i
+bash
+Copy
+Edit
+npm install
+Start the development server:
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+bash
+Copy
+Edit
 npm run dev
-```
+Changes made locally will automatically sync with the Lovable platform if pushed.
 
-**Edit a file directly in GitHub**
+Usage
+Upload historical supply, usage, and patient data.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Run predictive models to forecast supply demand.
 
-**Use GitHub Codespaces**
+Visualize results through interactive dashboards and risk alerts.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Use insights to guide inventory management and reduce costs.
 
-## What technologies are used for this project?
+Impact
+Improved operational efficiency by predicting supply needs accurately.
 
-This project is built with:
+Reduced stockouts and overstocking in hospitals.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Enabled data-driven decision-making for healthcare administrators.
 
-## How can I deploy this project?
+Enhanced patient care outcomes by ensuring critical supplies are available.
 
-Simply open [Lovable](https://lovable.dev/projects/1d2c2bdc-f3d5-4850-838c-3d82719d713e) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
