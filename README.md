@@ -8,13 +8,13 @@
 MedSupplyAI is a predictive analytics solution designed to optimize hospital supply chains. The project forecasts demand for critical medical supplies, reduces stockouts and overstocking, and minimizes expired inventory. By integrating historical supply, usage, and patient data, the platform enables hospital management to make proactive, data-driven decisions that improve operational efficiency and patient care outcomes.
 
 ## Key Features
-Predicts hospital supply demand using machine learning models (Random Forest, XGBoost).
+* Predicts hospital supply demand using machine learning models (Random Forest, XGBoost).
 
-Provides interactive dashboards for inventory trends, forecasted demand, and risk alerts.
+* Provides interactive dashboards for inventory trends, forecasted demand, and risk alerts.
 
-Supports data-driven decision-making for hospital administrators and supply chain managers.
+* Supports data-driven decision-making for hospital administrators and supply chain managers.
 
-Automates monitoring of stock levels to reduce costs and prevent shortages.
+* Automates monitoring of stock levels to reduce costs and prevent shortages.
 
 ## Technologies Used
 * Frontend: React, TypeScript, Tailwind CSS, shadcn-ui
